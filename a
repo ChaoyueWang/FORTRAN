@@ -1,0 +1,13 @@
+#PBS -A uq-CivilEng
+#PBS -N data
+#PBS -l walltime=530:00:00
+#PBS -l nodes=1:ppn=3
+#PBS -j oe
+##PBS -m abe -M chenming.zhang@uq.edu.au
+
+cd $PBS_O_WORKDIR
+date>>abc.dat 1>output 2>error
+
+
+
+
